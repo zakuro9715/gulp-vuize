@@ -1,0 +1,28 @@
+{
+  "name": "gulp-vuize",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib  --source-maps-inline",
+    "watch": "babel src --out-dir lib  --source-maps-inline --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakuro9715/gulp-vuize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zakuro9715/gulp-vuize/issues"
+  },
+  "homepage": "https://github.com/zakuro9715/gulp-vuize#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
