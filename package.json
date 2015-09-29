@@ -2,7 +2,7 @@
   "name": "gulp-vuize",
   "version": "0.0.1",
   "description": "Create .vue file from .js, .css and .html files.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib  --source-maps-inline",
     "watch": "babel src --out-dir lib  --source-maps-inline --watch",
