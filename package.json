@@ -25,10 +25,8 @@
   },
   "homepage": "https://github.com/zakuro9715/gulp-vuize#readme",
   "dependencies": {
+    "babel": "^5.8.23",
     "gulp-util": "^3.0.6",
     "through2": "^2.0.0"
-  },
-  "devDependencies": {
-    "babel": "^5.8.23"
   }
 }
