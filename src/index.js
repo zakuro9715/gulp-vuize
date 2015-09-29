@@ -1,7 +1,8 @@
 import gutil from 'gulp-util'
 import through from 'through2'
 import path from 'path'
-import "babel/polyfill"
+
+require('babel/polyfill')
 
 const pluginName = 'gulp-vuize'
 
