@@ -1,6 +1,6 @@
 {
   "name": "gulp-vuize",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Create .vue file from .js, .css and .html files.",
   "main": "lib/index.js",
   "scripts": {
