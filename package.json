@@ -8,6 +8,12 @@
     "watch": "babel src --out-dir lib  --source-maps-inline --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "LICENSE.txt",
+    "README.md",
+    "package.json",
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zakuro9715/gulp-vuize.git"
